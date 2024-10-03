@@ -10,7 +10,8 @@ namespace lab1_atap222
     {
         static void Main(string[] args)
         {
-            for (int k = 1; k <= 99; k++)
+            int k=1;
+            while(k<=99)
             {
                 if (k % 100 >= 11 && k % 100 <= 19)
                 {
@@ -33,6 +34,7 @@ namespace lab1_atap222
                         Console.WriteLine($"Менi {k} рокiв");
                     }
                 }
+                k++;
             }
 
         }
